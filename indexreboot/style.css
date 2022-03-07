@@ -35,6 +35,10 @@
     font-size: 14px;
 }
 }
+/*.section {
+    display: grid;
+    place-items: center;
+}*/
 
 /*.h1 {
     font-family: 'Secular One',sans-serif;
@@ -42,9 +46,32 @@
     color: #ff0000;
     text-align: center;
 }*/
-.section div h1 {
+.section .container_1 .h1 {
     font-family: 'Secular One',sans-serif;
 	text-align: center;
 	color: #f00;
-	font-family: secular one;
 }
+
+.carousel-inner .carousel-item-active img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;    
+    width: 50%;
+}
+/*img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }*/
+
+  h1 {
+      font-family: 'Secular One', sans-serif;
+      font-weight: 700;
+      padding-bottom: 20px;
+  }
+
+  h2 {
+      padding-bottom: 40px;
+  }
