@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black; 
+    background-color: rgb(0, 0, 0); 
 }
 .nav {
     display: flex;
@@ -35,17 +35,8 @@
     font-size: 14px;
 }
 }
-/*.section {
-    display: grid;
-    place-items: center;
-}*/
 
-/*.h1 {
-    font-family: 'Secular One',sans-serif;
-    display: flex;
-    color: #ff0000;
-    text-align: center;
-}*/
+
 .section .container_1 .h1 {
     font-family: 'Secular One',sans-serif;
 	text-align: center;
@@ -59,12 +50,6 @@
     height: 90%;    
     width: 50%;
 }
-/*img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }*/
 
   h1 {
       font-family: 'Secular One', sans-serif;
@@ -75,3 +60,7 @@
   h2 {
       padding-bottom: 40px;
   }
+
+ 
+
+  
