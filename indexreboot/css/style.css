@@ -18,6 +18,11 @@
 }
 
 @media (max-width: 991px) {
+    .navbar-toggler-icon:hover 
+    .navbar-toggler-icon:focus {
+      color: #ff0000;    
+    }
+    
     .navbar-nav {  
       border-bottom: 1px solid  #575766;
       display: flex;
@@ -58,6 +63,7 @@
 
   .head-one {
       font-family: 'Secular One', sans-serif;
+      font-size: 34px;
       font-weight: 700;
       text-align: center;
 	  color: #f00;

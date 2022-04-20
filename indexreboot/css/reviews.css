@@ -18,34 +18,87 @@
     border-bottom: 5px solid rgb(34,37,41) !important;
 }
 
+
+
 @media (max-width: 991px) {
+    .navbar-toggler-icon:hover 
+    .navbar-toggler-icon:focus {
+      color: #ff0000;    
+    }
+
+    .menu-icon,#header {
+      flex-wrap: nowrap;
+    }
+
     .navbar-nav {  
       border-bottom: 1px solid  #575766;
-      display: flex;
+      display: flex !important;
     }
 
     .nav-link {
       display: flex;
-      background-color: rgba(58, 53, 53, 0.75);
+      /*background-color: rgba(58, 53, 53, 0.75);*/
       justify-content: space-around;
-      
-    }
-
-    .nav-link {
-      list-style: none;
-    }
-
-    .nav-link {
       color: #fff;
       text-decoration: none;
       letter-spacing: 3px;
       font-weight: bold;
       font-size: 14px;
     }
+}
 
-    .navbar-nav {
-      display: flex !important;
+.head-one {
+  font-family: 'Secular One', sans-serif;
+  font-size: 34pt;
+  font-weight: 700;
+  text-align: center;
+  color: #f00;
+  padding: 20px;
+  margin-bottom: 0;
+
 }
 
 
+
+.bio-1 {
+  margin: 0 auto;
+  padding-top: 25px;
+  max-width: 100%;
+  
 }
+
+.bg-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+
+.bio-2 {
+ color:#fff;
+ margin-top: 25px;
+ padding-top: 25px;
+ line-height: 1.8;
+ font-size: 1rem;
+}
+
+.bio-2>p {
+font-size: 1.5rem;
+line-height: 1.6;
+}
+
+.call-one {
+font-family: 'Secular One', sans-serif;
+font-size: 34pt;
+font-weight: 700;
+text-align: center;
+color: #fff;
+}
+
+.btn {
+  border: 1px solid whitesmoke;
+}
+
+.call-link {
+padding: 3rem 2rem;
+}  
